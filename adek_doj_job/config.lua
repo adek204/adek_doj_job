@@ -1,7 +1,7 @@
 Config = {}
 Config.Job = 'doj'
 Config.CarManagment = true
-Config.Input = 168
+Config.Hook = 'https://discord.com/api/webhooks/863096719109652480/NxPdRmKFt9O8rXeYBCeVf2QL9806xk7gilhrRa8_T6gJNgiwbXEBE2QrnV6kERf27LF2' ---Webhook do faktur z tabletu <--
 
 Config.Zone = {
     {
