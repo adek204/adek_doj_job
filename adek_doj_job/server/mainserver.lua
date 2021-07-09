@@ -210,7 +210,7 @@ function GetImie(source)
 end
 function GetNazwisko(source)
 	local result = MySQL.Sync.fetchAll('SELECT * FROM users WHERE identifier = @identifier',
-	{
+	{https://github.com/adek204/adek_doj_job/blob/main/adek_doj_job/server/mainserver.lua
 		['@identifier'] = GetPlayerIdentifiers(source)[1]
 	})
 
@@ -222,7 +222,7 @@ function GetNazwisko(source)
 end
 
 function DiscordHook(hook,message,color)
-    local hooke = 'https://discord.com/api/webhooks/863096719109652480/NxPdRmKFt9O8rXeYBCeVf2QL9806xk7gilhrRa8_T6gJNgiwbXEBE2QrnV6kERf27LF2'
+    local hooke = Config.Hook
     local embeds = {
                 {
             ["title"] = message,
