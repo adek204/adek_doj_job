@@ -210,7 +210,7 @@ function GetImie(source)
 end
 function GetNazwisko(source)
 	local result = MySQL.Sync.fetchAll('SELECT * FROM users WHERE identifier = @identifier',
-	{https://github.com/adek204/adek_doj_job/blob/main/adek_doj_job/server/mainserver.lua
+	{
 		['@identifier'] = GetPlayerIdentifiers(source)[1]
 	})
 
